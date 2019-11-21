@@ -18,7 +18,7 @@ void loop() {
   Serial.print("Sending: ");
   msg.id = 0x422;
   msg.len = 4;
-  msg.buf[0] = 'b' ;
+  msg.buf[0] = 'c' ;
   msg.buf[1] = 'i' ;
   msg.buf[2] = 't' ;
   msg.buf[3] = 'e' ;
