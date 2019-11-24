@@ -26,7 +26,7 @@ void loop() {
   //taille du message en octet
   msg.len = 4;
   // le message est découpé en buffer de taille d'un octet, on ecrit le message dedans (8 buffer max car trame CAN 8 octets max)
-  msg.buf[0] = 'c' ;
+  msg.buf[0] = 'b' ;
   msg.buf[1] = 'i' ;
   msg.buf[2] = 't' ;
   msg.buf[3] = 'e' ;
